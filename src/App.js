@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo.png";
 import Mockman from "mockman-js"
+import {Routes,Route} from "react-router-dom";
 
 function App() {
   return (
@@ -37,7 +38,10 @@ function App() {
           </a>
         </div>
       </header>
-      <Mockman/> 
+      <Routes>
+        <Route path="/mockbee" element = {<Mockman/>}/> 
+      </Routes>
+      
 
     </div>
   );
