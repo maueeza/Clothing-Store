@@ -37,7 +37,7 @@ function App() {
           </a>
         </div>
       </header>
-      <Mockman/>
+      <Mockman/> 
 
     </div>
   );
