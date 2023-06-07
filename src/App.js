@@ -3,6 +3,7 @@ import logo from "./logo.png";
 import Mockman from "mockman-js"
 import {Routes,Route} from "react-router-dom";
 import Home from "./pages/Home/Home";
+import ProductListing from "./pages/Home/ProductListing";
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
       <Routes>
         <Route path="/" element = {<Home/>}/> 
         <Route path="/mockbee" element = {<Mockman/>}/> 
+        <Route path="/products" element = {<ProductListing/>}/> 
        </Routes>
+       
     </div>
   );
 }
